@@ -1,0 +1,21 @@
+{
+  "name": "SmartBuildingUI",
+  "version": "1.0.0",
+  "description": "A driver-agnostic UI library for Smart Building HMI using DisplayEngine HAL.",
+  "keywords": "UI, HMI, ESP32, TFT, HAL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazzma/UI-SmartBuilding.git"
+  },
+  "authors": [
+    {
+      "name": "hazzma",
+      "maintainer": true
+    }
+  ],
+  "dependencies": {
+    "bodmer/TFT_eSPI": "^2.5.43"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
