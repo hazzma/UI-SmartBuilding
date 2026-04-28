@@ -1,7 +1,7 @@
 #ifndef UI_KEYBOARD_H
 #define UI_KEYBOARD_H
 
-#include "display.h"
+#include "ui_theme.h"
 #include "ui_widgets.h"
 
 void keyboard_draw();

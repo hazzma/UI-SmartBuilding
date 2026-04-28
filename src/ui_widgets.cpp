@@ -1,13 +1,14 @@
 #include "ui_widgets.h"
 #include "data.h"
-#include "tft_adapter.h"
 #include <stdio.h>
 
-// ── Display Engine Implementation ───────────────────────────────
-static TFTAdapter tft_engine(&tft);
-DisplayEngine* p_engine = &tft_engine;
+// ── Display Engine Reference ───────────────────────────────
+DisplayEngine* p_engine = nullptr;
 
 void widgets_init() {
+    // Widgets are now engine-agnostic. 
+    // p_engine must be assigned before calling any widget functions.
+}
     Serial.println("\n[HAL] --- Display Engine Initialization ---");
     
     if (p_engine->init(480, 320)) {

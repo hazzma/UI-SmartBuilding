@@ -1,7 +1,7 @@
 #ifndef UI_WIDGETS_H
 #define UI_WIDGETS_H
 
-#include "display.h"
+#include "ui_theme.h"
 #include "display_engine.h"
 
 // FSD 4.2: Abstraction Layer for Display Engine
